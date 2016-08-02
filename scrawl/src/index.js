@@ -9,11 +9,6 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <LeftBar />,
-  document.getElementById('leftbar')
-);
-
-ReactDOM.render(
   <Input value="搜索" placeHolder="search"/>,
   document.getElementById('search')
 );
