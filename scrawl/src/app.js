@@ -13,7 +13,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          oTo get started, edit <code>src/App.js</code> and save to reload.
+          学习ReactJs
         </p>
         <p className="App-test">
         </p>
@@ -50,7 +50,7 @@ class App3 extends Component {
 
 var Img = React.createClass({
   sayHello: function(){
-		alert("testing, hello");
+		alert("I am happy");
 	},
   render: function() {
 	  var img = {
@@ -59,12 +59,10 @@ var Img = React.createClass({
 				};
 	  var Styles = {
 					 marginTop: 20,
-					 width: "50%",
-					 marginLeft: "10%"
+                     textAlign: "center",
 				   };
 	  var ImgStyles = {
-					 width: "100%",
-					 marginLeft: "35%"
+					 width: "50%"
 				   };
     return (
       <div style={Styles}>
