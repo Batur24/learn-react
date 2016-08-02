@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import testjpg from './test.jpg';
 import './App.css';
 
 
@@ -9,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src="https://github.com/Batur24/learn-react/blob/gh-pages/scrawl/src/images/logo.svg?raw=true" className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
@@ -54,7 +52,7 @@ var Img = React.createClass({
 	},
   render: function() {
 	  var img = {
-					src : {testjpg},
+					src : "https://github.com/Batur24/learn-react/blob/gh-pages/scrawl/src/images/test.jpg?raw=true",
 					alt : "hello"
 				};
 	  var Styles = {
@@ -69,7 +67,7 @@ var Img = React.createClass({
     return (
       <div style={Styles}>
 		<h1 onClick={this.sayHello}>{this.props.name}</h1>
-		<img src={testjpg} alt={img.alt} style={ImgStyles}/>
+		<img src={img.src} alt={img.alt} style={ImgStyles}/>
       </div>
     );
   }
