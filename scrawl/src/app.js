@@ -9,11 +9,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>学习React</h2>
         </div>
-        <p className="App-intro">
-         学习ReactJs 
-        </p>
         <p className="App-test">
         </p>
       </div>
@@ -27,8 +24,10 @@ var LeftBar = React.createClass({
   render: function() {
     return (
       <div className="site">
-		<div><Button value="图片" onClick={this.handleClick}/></div>
-		<div><Button value="音乐"/></div>
+        <ul>
+            <li><a href="/google.html">Google</a></li>
+            <li><a href="/baidu.html">Baidu</a></li>
+        </ul>
       </div>
     );
   }

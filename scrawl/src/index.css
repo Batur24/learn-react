@@ -6,10 +6,9 @@ body {
 
 .site {
   position: absolute;
-  top:0px;
+  top:190px;
   height: 100%;
-  background-color: orange;
-  width: 90px;
+  width: 120px;
 }
 
 .search{

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {App,LeftBar,Input,Img} from './App';
 import './index.css';
 
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
@@ -16,4 +17,9 @@ ReactDOM.render(
 ReactDOM.render(
   <Img name="Bear"/>,
   document.getElementById('img')
+);
+
+ReactDOM.render(
+  <LeftBar />,
+  document.getElementById('leftbar')
 );
