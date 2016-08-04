@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
-import {logo} from './Logo';
+import React, { Component } from 'react'
+import './App.css'
+import {logo} from './Logo'
+import {Link} from 'react-router'
 
 
 class App extends Component {
@@ -96,4 +97,15 @@ var Input = React.createClass({
 	}
 })
 
-export {App, LeftBar, Img, Button, Input};
+var webLink = React.createClass({
+	render: function(){
+		return (<div>
+					<ul rold="nav">
+						<li><Link to="/">main</Link></li>
+						<li><Link to="/baidu">Baidu</Link></li>
+					</ul>
+				</div>)
+	}
+})
+
+export {App, LeftBar, Img, Button, Input, webLink};
