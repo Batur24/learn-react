@@ -1,7 +1,22 @@
 import React from 'react'
 
-export default React.createClass({
+var Baidu = React.createClass({
     render(){
-        return <div>BAIDU</div>
+        var baiduStyle = {
+                            textAlign: "center",
+                            marginTop: 200
+                         };
+        var textStyle = {
+                            width: 300,
+                            height: 20
+                        };
+        return (
+            <div style={baiduStyle}>
+                <input type="text" style={textStyle}/>
+                <input type="button" value="百度一下" />
+            </div>
+            )
     }
 })
+
+export {Baidu};

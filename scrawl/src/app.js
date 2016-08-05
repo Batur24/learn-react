@@ -103,6 +103,7 @@ var webLink = React.createClass({
 					<ul rold="nav">
 						<li><Link to="/">main</Link></li>
 						<li><Link to="/baidu">Baidu</Link></li>
+						<li><Link to="/tencent">Tencent</Link></li>
 					</ul>
 				</div>)
 	}
