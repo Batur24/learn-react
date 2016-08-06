@@ -4,7 +4,7 @@ var Baidu = React.createClass({
     render(){
 		var baiduNavStyle = {
 								position: "absolute",
-								top: 190,
+								top: 10,
 								right: 20,
 								display: "block",
 							};

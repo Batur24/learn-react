@@ -99,13 +99,19 @@ var Input = React.createClass({
 
 var webLink = React.createClass({
 	render: function(){
-		return (<div>
-					<ul rold="nav">
-						<li><Link to="/">main</Link></li>
-						<li><Link to="/baidu">Baidu</Link></li>
-						<li><Link to="/tencent">Tencent</Link></li>
-					</ul>
-				</div>)
+		return (
+                <div>
+                    <App />
+                    <Input value="搜索" placeHolder="search" />
+                    <div>
+                        <ul rold="nav">
+                            <li><Link to="/">main</Link></li>
+                            <li><Link to="/baidu">Baidu</Link></li>
+                            <li><Link to="/tencent">Tencent</Link></li>
+                        </ul>
+                    </div>
+                </div>
+               )
 	}
 })
 

@@ -8,16 +8,6 @@ import {Router, Route, hashHistory} from 'react-router'
 
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
-
-ReactDOM.render(
-  <Input value="搜索" placeHolder="search"/>,
-  document.getElementById('search')
-);
-
-ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={webLink} />
     <Route path="/baidu" component={Baidu} />
