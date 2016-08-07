@@ -27,3 +27,38 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.hacker-news-title{
+  height: 20px;
+  background-color: #ff6600;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.hacker-news-title a{
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.hacker-news-content{
+  background-color:rgb(246, 246, 239);
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.hacker-news-content a{
+  text-decoration: none;
+  color: black;
+}
+
+.hnname{
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 10pt;
+  line-height: 12pt;
+}
+

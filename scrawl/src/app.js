@@ -108,6 +108,7 @@ var webLink = React.createClass({
                             <li><Link to="/">main</Link></li>
                             <li><Link to="/baidu">Baidu</Link></li>
                             <li><Link to="/tencent">Tencent</Link></li>
+                            <li><Link to="/hackernews">HackerNews</Link></li>
                         </ul>
                     </div>
                 </div>
