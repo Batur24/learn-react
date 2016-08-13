@@ -4,6 +4,7 @@ import $ from "jquery"
 var HNGET = React.createClass({
   getInitialState: function() {
     return {
+      allID: 'allId',
       newsID: 'newsID',
       newsTitle: 'newsTitle',
       newsLink: 'newsLink'
@@ -12,21 +13,20 @@ var HNGET = React.createClass({
 
   componentDidMount: function() {
     this.serverRequest = $.get(this.props.source, function (result) {
-      var news = result;
       this.setState({
-        newsID: news,
+        allID: result,
       });
     }.bind(this));
   },
 
-  componentWillUnmount: function() {
-    this.serverRequest.abort();
-  },
-
   render: function() {
+	var allNews = [];
+	for(var i=0; i<this.state.newsID.length; i++){
+		allNews.push(<p><a href={this.state.allID[i]}>{this.state.allID[i]}</a></p>);
+	}
     return (
       <div>
-        <a href={this.state.newsID}>{this.state.newsID}</a>.
+		{allNews}
       </div>
     );
   }

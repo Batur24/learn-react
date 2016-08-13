@@ -15,5 +15,5 @@ ReactDOM.render(
     <Route path="/hackernews" component={HackerNews} />
     <Route path="/tencent" component={Tencent} />
   </Router>,
-  document.getElementById('leftbar')
+  document.getElementById('app')
 );

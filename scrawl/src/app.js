@@ -103,7 +103,7 @@ var webLink = React.createClass({
                 <div>
                     <App />
                     <Input value="搜索" placeHolder="search" />
-                    <div>
+                    <div className="center">
                         <ul rold="nav">
                             <li><Link to="/">main</Link></li>
                             <li><Link to="/baidu">Baidu</Link></li>
